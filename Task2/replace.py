@@ -19,10 +19,32 @@ with open(TERMS_FILE, encoding="utf-8") as f:
 
 # -----------------------------
 # Функция замены терминов в тексте
+# Сначала заменяем более длинные фразы, чтобы избежать частичных замен
 # -----------------------------
 def replace_terms_partial(text, terms_map):
-    for k, v in terms_map.items():
-        text = text.replace(k, v)
+    # Сортируем ключи по длине (от длинных к коротким) и по алфавиту
+    sorted_keys = sorted(terms_map.items(), key=lambda x: (-len(x[0]), x[0]))
+    
+    for k, v in sorted_keys:
+        # Экранируем специальные символы в ключе
+        escaped_key = re.escape(k)
+        
+        # Если ключ содержит пробелы или специальные символы, используем простую замену
+        if ' ' in k or '-' in k or "'" in k:
+            # Для фраз с пробелами используем простую замену с учетом регистра
+            text = text.replace(k, v)
+            # Также заменяем варианты с разным регистром
+            if k != k.lower():
+                text = text.replace(k.lower(), v.lower() if v else v)
+            if k != k.upper():
+                text = text.replace(k.upper(), v.upper() if v else v)
+            if k != k.capitalize():
+                text = text.replace(k.capitalize(), v.capitalize() if v else v)
+        else:
+            # Для отдельных слов используем границы слов
+            pattern = r'\b' + escaped_key + r'\b'
+            text = re.sub(pattern, v, text, flags=re.IGNORECASE)
+    
     return text
 
 # -----------------------------
