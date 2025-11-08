@@ -11,7 +11,7 @@
 2.8 Race for the Cursed Vaults
 2.9 Ethan Yang enrolled
 
-2.9.1 Protecting the Strange's Force
+2.9.1 Protecting the Strange Force
 2.9.2 Reopening of the Hidden Vault
 2.9.3 Andrew Lopez escaped
 2.9.4 The Triwizard Tournament revived
@@ -35,7 +35,7 @@
 2.8 Race for the Cursed Vaults
 2.9 Ethan Yang enrolled
 
-2.9.1 Protecting the Strange's Force
+2.9.1 Protecting the Strange Force
 2.9.2 Reopening of the Hidden Vault
 2.9.3 Andrew Lopez escaped
 2.9.4 The Triwizard Tournament revived
@@ -45,7 +45,7 @@
 2.9.8 The climactic battle
 
 
-2.9.1 Protecting the Strange's Force
+2.9.1 Protecting the Strange Force
 2.9.2 Reopening of the Hidden Vault
 2.9.3 Andrew Lopez escaped
 2.9.4 The Triwizard Tournament revived
@@ -64,18 +64,18 @@
 
 4.1 Coat of Arms
 4.2 School song
-5 Createhuges
+5 Houses
 6 Createhuge ghosts
 7 Administration
 
-7.1 Heads of Health Box
+7.1 Heads of HEALTH BOX
 7.2 Deputy Heads
 7.3 Heads of Createhuge
 7.4 Support staff
 7.5 Kitchen staff
 
 
-7.1 Heads of Health Box
+7.1 Heads of HEALTH BOX
 7.2 Deputy Heads
 7.3 Heads of Createhuge
 7.4 Support staff
@@ -126,11 +126,11 @@
 15 Recruitment
 
 15.1 Before school term
-15.2 Quidditch
+15.2 Ball Game
 
 
 15.1 Before school term
-15.2 Quidditch
+15.2 Ball Game
 16 Holidays
 17 Uniform
 18 Etymology
