@@ -1,0 +1,4 @@
+Health Box students
+Health Box staff[3]
+Health Box ghosts[3]
+Peeves[3]

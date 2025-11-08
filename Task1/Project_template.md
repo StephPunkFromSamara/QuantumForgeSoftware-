@@ -85,7 +85,7 @@
 
 #  4. Рекомендации по конфигурации сервера для RAG-бота
 
-Вариант: _OpenAI ChatGPT (облако) + text-embedding-3-small + ChromaDB_  
+Вариант: _OpenAI ChatGPT (облако) + sentence-transformers/all-MiniLM-L6-v2 + ChromaDB_  
 Объём данных: тысячи документов
 
 ### 1. Минимальная конфигурация (Пилот / PoC)

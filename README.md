@@ -1,2 +1,2 @@
-# QuantumForgeSoftware-
+# QuantumForgeSoftware
 Учебный репозиторий Кирпиченкова Степана Спринт7
