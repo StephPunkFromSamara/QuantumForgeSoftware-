@@ -17,7 +17,7 @@ if count == 0:
 else:
     # Загружаем модель для query
     model = SentenceTransformer("all-MiniLM-L6-v2")
-    query_text = "Where Harry ?"
+    query_text = "Where did Harry Potter go after the battle?"
     query_embedding = model.encode(query_text).tolist()  # вектор запроса
 
     # Проверяем размерность
