@@ -1,8 +1,0 @@
-Prefect[1]
-Head Girl[1]
-Madam[2]
-Professor[3]
-Head of Transfiguration[3] (formerly)
-Head of Brave Createhuge[3] (formerly)
-Deputy Headmistress[3] (formerly)
-Headmistress[4][5][6][7]
