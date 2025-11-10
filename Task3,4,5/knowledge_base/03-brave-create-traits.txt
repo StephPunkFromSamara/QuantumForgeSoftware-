@@ -1,6 +1,0 @@
-Daring[4][5]
-Nerve[4][5]
-Chivalry[4][5]
-Courage[6]
-Bravery[6]
-Determination[6]
